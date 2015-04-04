@@ -1,3 +1,5 @@
 FROM scratch
 
-ADD http://boot.ipxe.org/undionly.kpxe /
+ADD http://boot.ipxe.org/undionly.kpxe /tftpboot/
+
+VOLUME /tftpboot
